@@ -1,0 +1,179 @@
+:root{
+
+    --color1: #202124;
+    --color2: #bdc1c6;
+}
+
+body{
+    background-color:#202124;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    font-size: 14px;
+    width: 90vw;
+    block-size: initial;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.na{
+    display: flex;
+    
+    align-items: center;
+}
+
+.left{
+    width: 100%;
+    justify-content: start;
+
+} 
+.right{
+    width: 100%;
+    justify-content: end;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.google_logo{
+    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+    margin: 50px;
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search #ss{
+
+    padding: 10px;
+    background-color: var(--color1);
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: #bdc1c6;
+    border: 1px solid #717171;
+    border-radius:  40px;
+    text-align:center;
+
+}
+.search #ss:hover{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    border: 0.5px solid black;
+}
+.button-container{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+    background-color: rgb(59, 56, 56);
+    margin-right: 30px;
+    padding: 10px 30px 10px 30px;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover{
+    border: 0.5px solid white;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover{
+
+    border-bottom: 1px solid white;
+
+}
+.language{
+    padding-top: 50px;
+}
+.language a{
+    color: rgb(112, 167, 216);
+    
+}
+
+.language a:hover{
+    border-bottom: 1px solid rgb(112, 167, 216);
+}
+li{
+    list-style: none;
+    margin-right: 15px;
+}
+#ad_form-container{
+    display:flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: left;
+    padding: 50px 0px 0px 100px;
+
+
+}
+.ad_form{
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+
+
+}
+
+.ad_form input{
+    background-color: var(--color1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(54, 52, 52);
+    
+}
+
+.ad_form #submit{
+    background-color: blue;
+    color: white;
+}
+
+
+#img_form > input{
+    background-color: var(--color1);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(54, 52, 52);
+    
+}
+
+
+#img_submit{
+    background-color: blue;
+    color: white;
+
+}
